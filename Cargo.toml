@@ -3,6 +3,18 @@ name = "rs-names2stats2arrow-ipc-stream"
 version = "0.1.0"
 edition = "2024"
 
+description = "Shows the file stats as an arrow ipc stream"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-names2stats2arrow-ipc-stream"
+homepage = "https://github.com/takanoriyanagitani/rs-names2stats2arrow-ipc-stream"
+documentation = "https://docs.rs/rs-names2stats2arrow-ipc-stream/latest"
+keywords = ["arrow", "ipc", "stream", "file", "stat"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"names2stats2arrow-ipc-stream",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
